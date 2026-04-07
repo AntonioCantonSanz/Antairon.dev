@@ -776,6 +776,49 @@
             line-height: 1.8;
         }
 
+        #certs {
+            padding: 0 3rem 7rem;
+        }
+
+        .certs-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .cert-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 1.4rem;
+            transition: border-color 0.3s, transform 0.3s;
+        }
+
+        .cert-card:hover {
+            border-color: rgba(87, 212, 255, 0.45);
+            transform: translateY(-4px);
+        }
+
+        .cert-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.05rem;
+            margin-bottom: 0.6rem;
+        }
+
+        .cert-card p {
+            font-size: 0.75rem;
+            color: var(--muted);
+            line-height: 1.8;
+            margin-bottom: 0.9rem;
+        }
+
+        .cert-meta {
+            font-size: 0.62rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--accent2);
+        }
+
         #featured {
             padding: 0 3rem 7rem;
         }
@@ -938,6 +981,16 @@
             color: var(--muted);
         }
 
+        .project-line {
+            margin-bottom: 0.35rem;
+            line-height: 1.7;
+        }
+
+        .project-line strong {
+            color: var(--text);
+            font-weight: 600;
+        }
+
         .project-actions {
             margin-top: 0.9rem;
             display: flex;
@@ -1070,6 +1123,35 @@
             font-size: 1.8rem;
             margin-bottom: 1.5rem;
             display: block;
+        }
+
+        .service-logo {
+            width: 56px;
+            height: 56px;
+            background: var(--accent);
+            margin-bottom: 1.3rem;
+            display: block;
+            -webkit-mask-position: center;
+            -webkit-mask-repeat: no-repeat;
+            -webkit-mask-size: contain;
+            mask-position: center;
+            mask-repeat: no-repeat;
+            mask-size: contain;
+        }
+
+        .service-logo-uar {
+            -webkit-mask-image: url('src/UAR.svg');
+            mask-image: url('src/UAR.svg');
+        }
+
+        .service-logo-rfef {
+            -webkit-mask-image: url('src/RFEF.svg');
+            mask-image: url('src/RFEF.svg');
+        }
+
+        .service-logo-gamepad {
+            -webkit-mask-image: url('src/videojuegos.svg');
+            mask-image: url('src/videojuegos.svg');
         }
 
         .service-card h3 {
@@ -1429,14 +1511,16 @@
             #tools,
             #timeline,
             #stack,
-            #testimonials {
+            #testimonials,
+            #certs {
                 padding: 0 1.5rem 5rem;
             }
 
             .tools-grid,
             .timeline-grid,
             .stack-grid,
-            .testimonial-grid {
+            .testimonial-grid,
+            .certs-grid {
                 grid-template-columns: 1fr;
             }
 
