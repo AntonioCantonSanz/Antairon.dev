@@ -126,20 +126,27 @@
 
         const ham = document.getElementById('hamburger');
         const navLinks = document.querySelector('.nav-links');
-        ham.addEventListener('click', () => {
-            const open = navLinks.style.display === 'flex';
-            navLinks.style.display = open ? 'none' : 'flex';
-            navLinks.style.flexDirection = 'column';
-            navLinks.style.position = 'fixed';
-            navLinks.style.top = '70px';
-            navLinks.style.right = '1.5rem';
-            navLinks.style.background = 'rgba(6,6,8,0.95)';
-            navLinks.style.border = '1px solid rgba(255,255,255,0.07)';
-            navLinks.style.padding = '1.5rem';
-            navLinks.style.gap = '1.5rem';
-            navLinks.style.backdropFilter = 'blur(12px)';
-            if (open) navLinks.style.display = 'none';
-        });
+        if (ham && navLinks) {
+            function closeMobileMenu() {
+                navLinks.classList.remove('open');
+                document.body.classList.remove('nav-open');
+            }
+
+            ham.addEventListener('click', () => {
+                const open = navLinks.classList.toggle('open');
+                document.body.classList.toggle('nav-open', open);
+            });
+
+            navLinks.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', closeMobileMenu);
+            });
+
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 900) {
+                    closeMobileMenu();
+                }
+            });
+        }
 
         window.addEventListener('mousemove', e => {
             const glow1 = document.querySelector('.hero-glow');
