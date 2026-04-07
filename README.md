@@ -1,59 +1,59 @@
-# My Portfolio Website - Overview 🚀
+# Mi Portfolio Web - Resumen 🚀
 
-This repository contains the open-source version of my personal portfolio website.
-Feel free to explore the code and use it for learning and inspiration.
+Este repositorio contiene la versión abierta de mi portfolio personal.
+Puedes explorar el código y usarlo como referencia para aprender e inspirarte.
 
-## ⚠️ Usage Notice
+## ⚠️ Aviso de uso
 
-This project is shared for learning purposes only.
+Este proyecto se comparte solo con fines de aprendizaje.
 
-Please do **NOT**:
+Por favor, **NO** hagas lo siguiente:
 
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
+- Clonar o replicar la web completa o su diseño
+- Volver a publicarlo con cambios mínimos de contenido
+- Usarlo para trabajos comerciales o para clientes
+- Crear tutoriales o contenido usando este proyecto exacto
 
-If you use parts of the code, please provide proper credit linking back to the original repository.
+Si usas partes del código, da crédito enlazando al repositorio original.
 
-Build your own version - don't just copy.
+Construye tu propia versión, no te limites a copiar.
 
 ---
 
-## 🛠️ Instructions
+## 🛠️ Instrucciones
 
-This portfolio is built with plain HTML, CSS and JavaScript.
+Este portfolio está hecho con HTML, CSS y JavaScript puros.
 
-If you want to edit it:
+Si quieres editarlo:
 
-- Open `index.html` for the structure and content
-- Open `styles.css` for all styles and responsive rules
-- Open `main.js` for the interactive behavior
-- Keep the images inside `src/` so the gallery and favicon assets keep working
+- Abre `index.html` para la estructura y el contenido
+- Abre `styles.css` para todos los estilos y las reglas responsive
+- Abre `main.js` para el comportamiento interactivo
+- Mantén las imágenes dentro de `src/` para que la galería y los favicons sigan funcionando
 
-## ⚙️ Tech Stack
+## ⚙️ Tecnologías
 
 HTML • CSS • JavaScript • Responsive Design • Vanilla DOM Interactions
 
-## 🎨 Assets Usage
+## 🎨 Uso de recursos
 
-Some assets included in this repository are personal portfolio assets and may not be reused without permission.
+Algunos recursos incluidos en este repositorio son personales y no deben reutilizarse sin permiso.
 
-However:
+Sin embargo:
 
-- The website code is shared for learning purposes
-- The visual style, layout, and content should not be copied as-is
-- Any external assets you add must respect their own licenses
+- El código de la web se comparte con fines de aprendizaje
+- El estilo visual, la distribución y el contenido no deben copiarse tal cual
+- Cualquier recurso externo que añadas debe respetar su propia licencia
 
-## 📄 Preview
+## 📄 Vista previa
 
-Open `index.html` in your browser to view the portfolio.
+Abre `index.html` en tu navegador para ver el portfolio.
 
-## 📄 License
+## 📄 Licencia
 
-This project is licensed for personal portfolio and learning use only.
-See the LICENSE file for full details if one is added later.
+Este proyecto tiene licencia de uso personal y educativo.
+Consulta el archivo LICENSE para ver los detalles completos si se añade más adelante.
 
 ---
 
-Built with care by Antonio Cantón Sanz (Antairon.dev).
+Hecho con cuidado por Antonio Cantón Sanz (Antairon.dev).
