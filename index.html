@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antairon.dev | Antonio Cantón</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel='stylesheet' href='styles.css'>
+    <link rel="icon" type="image/png" href="src/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="src/favicon.svg" />
+    <link rel="shortcut icon" href="src/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="src/apple-touch-icon.png" />
+    <link rel="manifest" href="src/site.webmanifest" />
+</head>
+
+<body>
+
+    <div id="cursor"></div>
+    <div id="cursor-ring"></div>
+
+    <nav id="nav">
+        <a href="#" class="nav-logo">Antairon<span>.</span>dev</a>
+        <ul class="nav-links">
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#work">Proyectos</a></li>
+            <li><a href="#services">Habilidades</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-glow2"></div>
+
+        <div class="hero-content">
+            <div class="hero-tag" id="hero-tag">Estudiante 1º DAW — Fullstack / Frontend · Ingles B1-B2 · Frances
+                básico
+                · Italiano
+                básico</div>
+            <h1 class="hero-name">
+                <span class="glitch" data-text="Estudiante">Estudiante</span>
+                <span class="line2">DAW<span class="accent">.</span></span>
+            </h1>
+            <p class="hero-desc" id="hero-desc">
+                Soy Antonio Cantón Sanz, estudiante de 1º de DAW apasionado por crear cosas visuales y funcionales.
+                Transformo ideas en <strong style="color:var(--text)">interfaces claras, dinamicas y con
+                    personalidad</strong>.
+                Me inspiro mucho en el mundo de los videojuegos para cuidar ritmo, feedback y experiencia de usuario.
+            </p>
+            <div class="hero-ctas">
+                <a href="#work" class="btn-primary" id="hero-cta-work">Ver mis trabajos →</a>
+                <a href="#contact" class="btn-ghost" id="hero-cta-chat">Hablemos</a>
+                <a href="cv-antonio-canton.pdf" class="btn-ghost" download id="hero-cta-cv">Descargar CV</a>
+            </div>
+            <p class="personal-quote" id="hero-quote">Diseño experiencias web con mentalidad gamer y logica fullstack.
+            </p>
+        </div>
+
+        <div class="hero-scroll">
+            <div class="scroll-line"></div>
+            Scroll
+        </div>
+
+        <div class="hero-counter">
+            <div class="num" id="year-counter">3</div>
+            <div class="label" id="year-label">Años aprendiendo código</div>
+        </div>
+    </section>
+
+    <div class="marquee-section">
+        <div class="marquee-track" id="marquee">
+            <span class="marquee-item">Web Development</span>
+            <span class="marquee-item">Frontend</span>
+            <span class="marquee-item">Fullstack Student</span>
+            <span class="marquee-item">Python & PHP</span>
+            <span class="marquee-item">JavaScript</span>
+            <span class="marquee-item">HTML & CSS</span>
+            <span class="marquee-item">Web Development</span>
+            <span class="marquee-item">Frontend</span>
+            <span class="marquee-item">Fullstack Student</span>
+            <span class="marquee-item">Python & PHP</span>
+            <span class="marquee-item">JavaScript</span>
+            <span class="marquee-item">HTML & CSS</span>
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="about-visual reveal">
+            <div class="about-img-frame">
+                <div class="carousel-container">
+                    <img src="src/imagen1.jpg" alt="Foto 1" class="about-img active">
+                    <img src="src/imagen2.jpg" alt="Foto 2" class="about-img">
+                    <img src="src/imagen3.jpg" alt="Foto 3" class="about-img">
+                    <img src="src/imagen4.jpg" alt="Foto 4" class="about-img">
+                    <img src="src/imagen5.jpg" alt="Foto 5" class="about-img">
+                </div>
+            </div>
+            <div class="about-tag-float">
+                <strong>1º DAW</strong>
+                En proceso · Perfil gamer
+            </div>
+        </div>
+
+        <div class="about-text">
+            <div class="section-label reveal">Sobre mí</div>
+            <h2 class="section-title reveal">Construyo lo que<br><em style="color:var(--accent);font-style:normal">me
+                    apasiona</em></h2>
+            <p class="reveal">
+                Soy <strong>Antonio Cantón Sanz</strong> (Antairon), estudiante de 1º de Desarrollo de Aplicaciones
+                Web.
+                Aunque me formo como Fullstack para entender las tripas de cada proyecto, tengo una debilidad absoluta
+                por el Frontend: lo mío es darle vida al código y crear interfaces visualmente potentes, dinámicas y
+                fáciles de usar.
+            </p>
+            <p class="reveal">
+                Mi aventura empezó en Bachillerato haciendo webs en WordPress y con un proyecto que me llena de
+                orgullo:
+                construir desde cero la máquina arcade solidaria <strong>'Tecno reciclo 2022'</strong>, donada al
+                Hospital Materno Infantil de Granada. Ahora estoy a tope dominando bases de datos, lógica de servidor y
+                frontend moderno. Además, me defiendo en inglés (B1-B2), sé algo de francés (el clásico <em>"je
+                    m'appelle"</em> y <em>"je t'aime"</em>) y tengo un máster en italiano de calle gracias a mis amigos
+                (ya sabes, ese vocabulario de supervivencia que es mejor no escribir en un portfolio).
+            </p>
+            <div class="skills-grid reveal">
+                <span class="skill-pill">HTML / CSS</span>
+                <span class="skill-pill">JavaScript</span>
+                <span class="skill-pill">Python</span>
+                <span class="skill-pill">PHP</span>
+                <span class="skill-pill">SQL</span>
+                <span class="skill-pill">WordPress</span>
+                <span class="skill-pill">Ingles (B1-B2)</span>
+                <span class="skill-pill">Frances basico</span>
+                <span class="skill-pill">Italiano basico</span>
+                <span class="skill-pill">Videojuegos (UX mindset)</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools">
+        <div class="section-label reveal">Herramientas que uso</div>
+        <h2 class="section-title reveal">Stack limpio, visual y real</h2>
+        <div class="tools-grid">
+            <article class="tool-card reveal">
+                <span class="tool-icon">01</span>
+                <h3>Frontend</h3>
+                <p>Maquetacion, detalle visual y microinteracciones para interfaces con identidad propia.</p>
+                <div class="tool-chips">
+                    <span class="tool-chip">HTML</span>
+                    <span class="tool-chip">CSS</span>
+                    <span class="tool-chip">JavaScript</span>
+                </div>
+            </article>
+            <article class="tool-card reveal">
+                <span class="tool-icon">02</span>
+                <h3>Backend base</h3>
+                <p>Lo justo para conectar logica, datos y vistas sin perder claridad ni rendimiento.</p>
+                <div class="tool-chips">
+                    <span class="tool-chip">Python</span>
+                    <span class="tool-chip">PHP</span>
+                    <span class="tool-chip">SQL</span>
+                </div>
+            </article>
+            <article class="tool-card reveal">
+                <span class="tool-icon">03</span>
+                <h3>Entorno creativo</h3>
+                <p>WordPress, GitHub y herramientas visuales para mover ideas rapido y con orden.</p>
+                <div class="tool-chips">
+                    <span class="tool-chip">WordPress</span>
+                    <span class="tool-chip">GitHub</span>
+                    <span class="tool-chip">VS Code</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="timeline">
+        <div class="section-label reveal">Mini timeline</div>
+        <h2 class="section-title reveal">Formación y proyectos</h2>
+        <div class="timeline-grid">
+            <article class="timeline-item reveal">
+                <div class="timeline-year">2022</div>
+                <h3>Tecno Reciclo 2022</h3>
+                <p>Montaje de la arcade solidaria que me engancho del todo al desarrollo y al diseño de experiencia.
+                </p>
+            </article>
+            <article class="timeline-item reveal">
+                <div class="timeline-year">2023</div>
+                <h3>WordPress y web visual</h3>
+                <p>Primera etapa creando webs, entendiendo estructura, estilos y contenido con mentalidad de usuario.
+                </p>
+            </article>
+            <article class="timeline-item reveal">
+                <div class="timeline-year">2026</div>
+                <h3>1º DAW + portfolio</h3>
+                <p>Ahora estoy afinando frontend, backend y proyectos propios para presentar un portfolio serio y vivo.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="stack">
+        <div class="section-label reveal">Stack favorito</div>
+        <h2 class="section-title reveal">Tecnologías que más uso</h2>
+        <div class="stack-grid">
+            <article class="stack-card reveal">
+                <h3>Mi base diaria</h3>
+                <p class="stack-note">La mezcla que más me representa cuando trabajo en interfaces, lógica y pequeñas
+                    automatizaciones.</p>
+            </article>
+            <article class="stack-card reveal">
+                <div class="stack-list">
+                    <div class="stack-row">
+                        <div class="stack-row-head"><span>HTML / CSS</span><span>95%</span></div>
+                        <div class="stack-bar"><span style="width:95%"></span></div>
+                    </div>
+                    <div class="stack-row">
+                        <div class="stack-row-head"><span>JavaScript</span><span>86%</span></div>
+                        <div class="stack-bar"><span style="width:86%"></span></div>
+                    </div>
+                    <div class="stack-row">
+                        <div class="stack-row-head"><span>Python / PHP</span><span>72%</span></div>
+                        <div class="stack-bar"><span style="width:72%"></span></div>
+                    </div>
+                    <div class="stack-row">
+                        <div class="stack-row-head"><span>SQL / WordPress</span><span>68%</span></div>
+                        <div class="stack-bar"><span style="width:68%"></span></div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="section-label reveal">Frases clave</div>
+        <h2 class="section-title reveal">Frases cortas, misma idea</h2>
+        <div class="testimonial-grid">
+            <article class="testimonial-card reveal">
+                <p>Interfaces claras, ritmo limpio y una estetica que no se olvida.</p>
+                <cite>What I build</cite>
+            </article>
+            <article class="testimonial-card reveal">
+                <p>Que el usuario entienda rapido y disfrute quedarse un poco mas.</p>
+                <cite>What I care about</cite>
+            </article>
+            <article class="testimonial-card reveal">
+                <p>Codigo simple, estructura seria y detalles que aportan personalidad.</p>
+                <cite>How I work</cite>
+            </article>
+        </div>
+    </section>
+
+    <section id="learning">
+        <div class="section-label reveal">Ahora mismo aprendiendo</div>
+        <div class="learning-grid">
+            <article class="learning-card reveal">
+                <h3>React + componentes</h3>
+                <p>Refuerzo estado, props y estructura modular para construir interfaces mas mantenibles y escalables.
+                </p>
+            </article>
+            <article class="learning-card reveal">
+                <h3>Java y POO</h3>
+                <p>Trabajo clases, herencia y buenas practicas para preparar una base solida en backend.</p>
+            </article>
+            <article class="learning-card reveal">
+                <h3>SQL real en proyectos</h3>
+                <p>Practico consultas y modelado para conectar frontend y logica de negocio con datos de verdad.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="featured">
+        <div class="section-label reveal">Proyecto destacado</div>
+        <article class="featured-card reveal">
+            <div>
+                <h2 class="featured-title">Space Shooter en Python: mentalidad gamer aplicada a codigo</h2>
+                <p class="featured-desc">
+                    Este proyecto resume bastante bien mi forma de trabajar: construir algo divertido, funcional y con
+                    buena logica interna. Me permitio practicar bucles de juego, estados, dificultad y feedback para el
+                    jugador.
+                </p>
+                <ul class="featured-list">
+                    <li>Control de movimiento, disparos y colisiones</li>
+                    <li>Sistema de puntuacion y ritmo de juego</li>
+                    <li>Estructura de codigo clara para seguir ampliando</li>
+                </ul>
+                <a href="https://github.com/AntonioCantonSanz/Space-Survival" target="_blank" class="btn-primary">Ver
+                    repo del juego →</a>
+            </div>
+            <aside class="featured-side">
+                <h4>Por que importa</h4>
+                <p>
+                    Este tipo de proyectos demuestra logica, creatividad y constancia. Para mi portfolio es clave porque
+                    conecta desarrollo tecnico con experiencia de usuario inspirada en videojuegos.
+                </p>
+            </aside>
+        </article>
+    </section>
+
+    <section id="work">
+        <div class="work-header">
+            <div>
+                <div class="section-label reveal">Mi trayectoria</div>
+                <h2 class="section-title reveal">Proyectos<br>destacados</h2>
+            </div>
+            <a href="https://github.com/AntonioCantonSanz" target="_blank" class="btn-ghost reveal"
+                style="white-space:nowrap">Ver mi GitHub →</a>
+        </div>
+
+        <div class="projects-grid">
+            <a href="https://github.com/AntonioCantonSanz/Space-Survival" target="_blank" class="project-card reveal">
+                <div class="project-num">01</div>
+                <div class="project-info">
+                    <h3>Juego de Naves (Python)</h3>
+                    <p>Proyecto de este ano orientado a logica de juego, colisiones y control del ritmo de partida.</p>
+                    <div class="project-actions">
+                        <span class="project-link-btn">Gameplay logic</span>
+                        <span class="project-link-btn">Python</span>
+                    </div>
+                </div>
+                <div class="project-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">Game Dev</span>
+                </div>
+                <div class="project-arrow">↗</div>
+            </a>
+
+            <article class="project-card reveal">
+                <div class="project-num">02</div>
+                <div class="project-info">
+                    <h3>Tragaperras Pirata (HTML, CSS, JS)</h3>
+                    <p>Proyecto web con interfaz interactiva, logica de tiradas y efectos visuales orientados a
+                        experiencia de usuario.</p>
+                    <div class="project-actions">
+                        <span class="project-link-btn">Frontend</span>
+                        <span class="project-link-btn">DOM + JS</span>
+                        <a href="https://github.com/AntonioCantonSanz/slot-machine-pirata" target="_blank"
+                            rel="noopener noreferrer" class="project-link-btn">Ver GitHub</a>
+                        <a href="https://antoniocantonsanz.github.io/slot-machine-pirata/" target="_blank"
+                            rel="noopener noreferrer" class="project-link-btn">Jugar</a>
+                    </div>
+                </div>
+                <div class="project-tags">
+                    <span class="project-tag">HTML/CSS</span>
+                    <span class="project-tag">JavaScript</span>
+                </div>
+                <a href="https://github.com/AntonioCantonSanz/slot-machine-pirata" target="_blank"
+                    rel="noopener noreferrer" class="project-arrow" aria-label="Abrir GitHub de la tragaperras">↗</a>
+            </article>
+
+            <article class="project-card reveal">
+                <div class="project-num">03</div>
+                <div class="project-info">
+                    <h3>Tecno Reciclo 2022 + mas proyectos</h3>
+                    <p>Impacto social con una arcade solidaria y repos de practicas que muestran evolucion constante.
+                    </p>
+                    <div class="project-actions">
+                        <span class="project-link-btn">Solidario</span>
+                        <span class="project-link-btn">Portfolio real</span>
+                        <a href="https://www.youtube.com/watch?v=qQd5nYlpcIY" target="_blank" rel="noopener noreferrer"
+                            class="project-link-btn">Ver video</a>
+                    </div>
+                </div>
+                <div class="project-tags">
+                    <span class="project-tag">Arcade</span>
+                    <span class="project-tag">GitHub</span>
+                </div>
+                <a href="https://github.com/AntonioCantonSanz" target="_blank" rel="noopener noreferrer"
+                    class="project-arrow" aria-label="Abrir GitHub de Antonio">↗</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <div class="section-label reveal">Logros</div>
+        <h2 class="section-title reveal">Hitos que hablan<br>por mi trabajo</h2>
+        <div class="achievements-grid">
+            <article class="achievement-card reveal">
+                <strong>Impacto real</strong>
+                <p>Construccion de la maquina arcade solidaria Tecno Reciclo 2022, donada al Hospital Materno Infantil
+                    de Granada.</p>
+            </article>
+            <article class="achievement-card reveal">
+                <strong>Perfil tecnico activo</strong>
+                <p>Repositorio con proyectos personales como Space Survival y Slot Machine Pirata, ademas de practicas
+                    de este curso.</p>
+            </article>
+            <article class="achievement-card reveal">
+                <strong>Evolucion continua</strong>
+                <p>Ruta de crecimiento en frontend y fullstack, combinando estudios DAW, practica diaria y curiosidad
+                    por tecnologia gamer.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="section-label reveal">Mis Intereses</div>
+        <h2 class="section-title reveal">Lo que hago</h2>
+
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <span class="service-icon">⬡</span>
+                <h3>Frontend Vistoso</h3>
+                <p>Me apasiona diseñar y maquetar interfaces que entren por los ojos con HTML, CSS y JavaScript,
+                    siempre buscando un toque dinamico y una experiencia clara para el usuario.</p>
+            </div>
+            <div class="service-card reveal">
+                <span class="service-icon">◈</span>
+                <h3>Bases Fullstack</h3>
+                <p>Construyo la logica que hace que todo funcione, integrando lenguajes como Python, PHP y
+                    consultas basicas en bases de datos SQL.</p>
+            </div>
+            <div class="service-card reveal">
+                <span class="service-icon">⬙</span>
+                <h3>Sistemas, Gaming & Solidaridad</h3>
+                <p>Desde montar sistemas CMS en WordPress hasta construir arcades fisicas desde cero para donar a
+                    hospitales. El mundo gamer me inspira para crear experiencias mas inmersivas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats">
+        <div class="stat-item reveal">
+            <div class="stat-num"><span id="stat1">0</span><span>+</span></div>
+            <div class="stat-label">Proyectos hechos</div>
+        </div>
+        <div class="stat-item reveal">
+            <div class="stat-num"><span id="stat2">0</span></div>
+            <div class="stat-label">Lenguajes de prog.</div>
+        </div>
+        <div class="stat-item reveal">
+            <div class="stat-num"><span id="stat3">0</span></div>
+            <div class="stat-label">Arcade donada</div>
+        </div>
+        <div class="stat-item reveal">
+            <div class="stat-num"><span id="stat4">0</span></div>
+            <div class="stat-label">Idiomas hablados</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-inner">
+            <div class="section-label reveal" style="justify-content:center">Contacta conmigo</div>
+            <h2 class="section-title reveal">Hablamos de codigo,<br>proyectos o videojuegos?</h2>
+            <p class="reveal"
+                style="color:var(--muted);font-size:0.85rem;max-width:400px;margin:0 auto 1rem;line-height:1.9">
+                Abierto a charlar sobre oportunidades, ideas o colaboraciones. Si quieres, hasta practicamos un poco de
+                frances basico entre commits.
+            </p>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMvbbrHXGZxdZGwdmZHdDcvKQWnzZxxGrGnLpPRhbtfkNTJpgNHGgsGTSSxWwtJkqlVsNs"
+                target="_blank" rel="noopener noreferrer" class="contact-email reveal">acantsanz@gmail.com</a>
+            <div class="contact-socials reveal">
+                <a href="https://github.com/AntonioCantonSanz" target="_blank" class="social-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/antonio-cant%C3%B3n/" target="_blank"
+                    class="social-link">LinkedIn</a>
+                <a href="cv-antonio-canton.pdf" class="social-link" download>Descargar CV</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>© 2026 Antonio Cantón Sanz (Antairon.dev)</span>
+        <span>Huétor Tájar, Granada (Andalucía)</span>
+    </footer>
+
+    <a href="cv-antonio-canton.pdf" id="mobile-cv" class="mobile-cv" download>Descargar CV</a>
+    <script src='main.js'></script>
+</body>
+
+</html>
