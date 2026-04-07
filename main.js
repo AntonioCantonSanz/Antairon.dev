@@ -1,5 +1,4 @@
 ﻿
-        // â”€â”€ CURSOR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         const cursor = document.getElementById('cursor');
         const ring = document.getElementById('cursor-ring');
         const heroContent = document.querySelector('.hero-content');
@@ -49,13 +48,11 @@
             });
         });
 
-        // â”€â”€ NAV SCROLL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         const nav = document.getElementById('nav');
         window.addEventListener('scroll', () => {
             nav.classList.toggle('scrolled', window.scrollY > 60);
         });
 
-        // â”€â”€ REVEAL ON SCROLL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         const reveals = document.querySelectorAll('.reveal');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
@@ -67,7 +64,6 @@
         }, { threshold: 0.15 });
         reveals.forEach(el => observer.observe(el));
 
-        // â”€â”€ COUNTER ANIMATION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         function animCount(el, target, duration = 1800) {
             let start = null;
             function step(ts) {
@@ -94,7 +90,6 @@
         }, { threshold: 0.3 });
         statsObs.observe(statsSection);
 
-        // â”€â”€ HERO TYPEWRITER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         const roles = ['Estudiante', 'Desarrollador', 'Programador', 'Creador'];
         let rIdx = 0, cIdx = 0, deleting = false;
         const target = document.querySelector('.hero-name .glitch');
@@ -118,7 +113,6 @@
             setTimeout(typeLoop, 1800);
         }
 
-        // â”€â”€ CAROUSEL AUTOMÃTICO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         const slides = document.querySelectorAll('.about-img');
         if (slides.length > 0) {
             let slideIdx = 0;
@@ -130,7 +124,6 @@
             setInterval(rotateCarousel, 4000);
         }
 
-        // â”€â”€ HAMBURGER MOBILE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         const ham = document.getElementById('hamburger');
         const navLinks = document.querySelector('.nav-links');
         ham.addEventListener('click', () => {
@@ -148,7 +141,6 @@
             if (open) navLinks.style.display = 'none';
         });
 
-        // â”€â”€ PARALLAX HERO GLOWS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         window.addEventListener('mousemove', e => {
             const glow1 = document.querySelector('.hero-glow');
             const glow2 = document.querySelector('.hero-glow2');
@@ -159,7 +151,6 @@
             glow2.style.transform = `translate(${-x * 0.5}px, ${-y * 0.5}px)`;
         });
 
-        // â”€â”€ MOBILE CV FLOATING CTA â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         const mobileCv = document.getElementById('mobile-cv');
         function toggleMobileCv() {
             if (!mobileCv) return;

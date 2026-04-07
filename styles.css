@@ -32,7 +32,6 @@
             cursor: none;
         }
 
-        /* â”€â”€ CURSOR â”€â”€ */
         #cursor {
             position: fixed;
             width: 12px;
@@ -63,7 +62,6 @@
             opacity: 1;
         }
 
-        /* â”€â”€ NAV â”€â”€ */
         nav {
             position: fixed;
             top: 0;
@@ -133,7 +131,6 @@
             width: 100%;
         }
 
-        /* â”€â”€ NOISE OVERLAY â”€â”€ */
         body::before {
             content: '';
             position: fixed;
@@ -144,7 +141,6 @@
             opacity: 0.4;
         }
 
-        /* â”€â”€ HERO â”€â”€ */
         #hero {
             min-height: 100vh;
             display: flex;
@@ -239,10 +235,8 @@
             font-weight: 800;
             font-size: clamp(2.8rem, 10vw, 9rem);
             line-height: 1.1;
-            /* 2. Damos un poco mÃ¡s de aire al interlineado (antes 0.92) */
             letter-spacing: -0.04em;
             margin-top: 1rem;
-            /* 3. AÃ±adimos margen superior extra por si acaso */
             margin-bottom: 2rem;
             opacity: 0;
             transform: translateY(30px);
@@ -414,7 +408,6 @@
             color: var(--muted);
         }
 
-        /* â”€â”€ SECTIONS COMMON â”€â”€ */
         section {
             position: relative;
             z-index: 2;
@@ -447,7 +440,6 @@
             margin-bottom: 1.5rem;
         }
 
-        /* â”€â”€ ABOUT â”€â”€ */
         #about {
             padding: 8rem 3rem;
             display: grid;
@@ -572,7 +564,6 @@
             color: var(--accent);
         }
 
-        /* â”€â”€ TOOLS / TIMELINE / STACK / TESTIMONIALS â”€â”€ */
         #tools,
         #timeline,
         #stack,
@@ -751,7 +742,6 @@
             color: var(--accent);
         }
 
-        /* â”€â”€ LEARNING MINI BLOCK â”€â”€ */
         #learning {
             padding: 2rem 3rem 7rem;
         }
@@ -786,7 +776,6 @@
             line-height: 1.8;
         }
 
-        /* â”€â”€ FEATURED PROJECT â”€â”€ */
         #featured {
             padding: 0 3rem 7rem;
         }
@@ -845,9 +834,10 @@
         }
 
         .featured-list li::before {
-            content: 'â–¸';
+            content: '-';
             color: var(--accent);
             margin-right: 0.5rem;
+            font-size: 25px;
         }
 
         .featured-side {
@@ -871,7 +861,6 @@
             line-height: 1.8;
         }
 
-        /* â”€â”€ WORK â”€â”€ */
         #work {
             padding: 8rem 3rem;
         }
@@ -1006,7 +995,6 @@
             color: var(--accent);
         }
 
-        /* â”€â”€ MARQUEE â”€â”€ */
         .marquee-section {
             padding: 4rem 0;
             border-top: 1px solid var(--border);
@@ -1040,8 +1028,8 @@
         }
 
         .marquee-item::after {
-            content: 'âœ¦';
-            font-size: 0.5rem;
+            content: '|';
+            font-size: 2.5rem;
             color: var(--accent);
         }
 
@@ -1055,7 +1043,6 @@
             }
         }
 
-        /* â”€â”€ SERVICES â”€â”€ */
         #services {
             padding: 8rem 3rem;
         }
@@ -1098,7 +1085,6 @@
             color: var(--muted);
         }
 
-        /* â”€â”€ STATS â”€â”€ */
         #stats {
             padding: 6rem 3rem;
             border-top: 1px solid var(--border);
@@ -1169,7 +1155,6 @@
             color: var(--muted);
         }
 
-        /* â”€â”€ CONTACT â”€â”€ */
         #contact {
             padding: 10rem 3rem;
             text-align: center;
@@ -1240,7 +1225,6 @@
             border-color: var(--accent);
         }
 
-        /* â”€â”€ FOOTER â”€â”€ */
         footer {
             border-top: 1px solid var(--border);
             padding: 2rem 3rem;
@@ -1280,7 +1264,6 @@
             transform: translateX(-50%) translateY(0);
         }
 
-        /* â”€â”€ ANIMATIONS â”€â”€ */
         @keyframes fade-up {
             to {
                 opacity: 1;
@@ -1299,7 +1282,6 @@
             transform: translateY(0);
         }
 
-        /* â”€â”€ HAMBURGER â”€â”€ */
         .hamburger {
             display: none;
             flex-direction: column;
@@ -1318,7 +1300,6 @@
             transition: transform 0.3s, opacity 0.3s;
         }
 
-        /* â”€â”€ TEXT GLITCH â”€â”€ */
         .glitch {
             position: relative;
             display: inline-block;
@@ -1396,7 +1377,6 @@
             }
         }
 
-        /* â”€â”€ MOBILE â”€â”€ */
         @media (max-width: 900px) {
             nav {
                 padding: 1.2rem 1.5rem;
