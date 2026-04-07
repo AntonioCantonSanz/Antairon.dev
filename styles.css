@@ -729,7 +729,7 @@
         }
 
         .testimonial-grid {
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
         }
 
         .testimonial-card cite {
@@ -810,6 +810,13 @@
             color: var(--muted);
             line-height: 1.8;
             margin-bottom: 0.9rem;
+        }
+
+        .cert-applied {
+            color: var(--text);
+            border-left: 2px solid rgba(184, 255, 87, 0.5);
+            padding-left: 0.6rem;
+            margin-top: -0.2rem;
         }
 
         .cert-meta {

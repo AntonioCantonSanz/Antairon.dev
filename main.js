@@ -31,7 +31,7 @@
         }
         animRing();
 
-        document.querySelectorAll('a, button, .skill-pill, .project-card, .service-card, .learning-card, .achievement-card, .project-link-btn').forEach(el => {
+        document.querySelectorAll('a, button, .skill-pill, .project-card, .service-card, .learning-card, .achievement-card, .cert-card, .project-link-btn').forEach(el => {
             el.addEventListener('mouseenter', () => {
                 cursor.style.width = '20px';
                 cursor.style.height = '20px';
